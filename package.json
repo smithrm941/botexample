@@ -1,0 +1,27 @@
+{
+  "name": "hello-chatconnector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "azure-publish": "node publish.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "botbuilder": "^3.13.1",
+    "botbuilder-azure": "^3.0.4",
+    "dotenv-extended": "^2.0.2",
+    "lodash": "^4.17.10",
+    "lorem-ipsum": "^1.0.4",
+    "restify": "^5.0.0",
+    "util": "^0.10.3",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "request": "^2.85.0",
+    "zip-folder": "^1.0.0"
+  }
+}
